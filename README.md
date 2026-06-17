@@ -17,10 +17,10 @@ A hands-on, code-backed repository tracking my progress through production RAG a
 
 ###  Phase 2: Function Calling & Manual ReAct Loops (Current)
 - [x] Define isolated Python Tool functions with strict semantic docstrings
-- [ ] Disable Automatic Function Calling (`client.automatic_function_calling = False`)
-- [ ] Manually intercept and parse raw `FunctionCall` instruction packets from the LLM
-- [ ] Construct the local application loop to execute tools on behalf of the agent
-- [ ] Pipe manual `FunctionResponse` packets back to the LLM to finish the ReAct cycle
+- [x] Disable Automatic Function Calling (`client.automatic_function_calling = False`)
+- [x] Manually intercept and parse raw `FunctionCall` instruction packets from the LLM
+- [x] Construct the local application loop to execute tools on behalf of the agent
+- [x] Pipe manual `FunctionResponse` packets back to the LLM to finish the ReAct cycle
 
 ###  Phase 3: Memory, Chat History & State Management
 - [ ] Understand the difference between stateless calls and stateful conversations
