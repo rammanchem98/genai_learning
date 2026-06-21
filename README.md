@@ -23,9 +23,9 @@ A hands-on, code-backed repository tracking my progress through production RAG a
 - [x] Pipe manual `FunctionResponse` packets back to the LLM to finish the ReAct cycle
 
 ###  Phase 3: Memory, Chat History & State Management
-- [ ] Understand the difference between stateless calls and stateful conversations
-- [ ] Implement a system-managed rolling chat memory array
-- [ ] Handle multi-turn historical contexts inside an agent loop
+- [x] Understand the difference between stateless calls and stateful conversations
+- [x] Implement a system-managed rolling chat memory array
+- [x] Handle multi-turn historical contexts inside an agent loop
 
 ###  Phase 4: Production MLOps & Architecture (Certification Guardrails)
 - [ ] Deep dive into Google Cloud Professional ML Engineer exam core patterns
